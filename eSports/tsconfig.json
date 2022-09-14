@@ -1,10 +1,4 @@
 {
-	"extends": "ts-node/node16/tsconfig.json",
-	"ts-node": {
-		"transpileOnly": true,
-		"typeCheck": false,
-		"files": true
-	},
 	"compilerOptions": {
 		/* Visit https://aka.ms/tsconfig.json to read more about this file */
 
@@ -31,7 +25,7 @@
 
 		/* Modules */
 		"module": "commonjs" /* Specify what module code is generated. */,
-		// "rootDir": "./",                                  /* Specify the root folder within your source files. */
+		"rootDir": "./src",                                  /* Specify the root folder within your source files. */
 		// "moduleResolution": "node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
 		// "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
 		// "paths": {},                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
